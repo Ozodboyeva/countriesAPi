@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400&family=Rubik:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+.header {
+  padding: 14px 0px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header__items {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+.toggle {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.search-part {
+  padding: 30px 0px;
+}
+.search__items {
+  display: flex;
+  justify-content: space-between;
+}
+.form-control {
+  position: relative;
+  width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: none;
+}
+.form-control input {
+  width: 100%;
+  padding: 18px 17px;
+  outline: 0;
+  border: 0;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+.form-control i {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+.dropdownType {
+  width: 200px;
+  position: relative;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 18px 24px 18px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+.dropdown p {
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.drop {
+  width: 100%;
+  padding: 16px 24px 16px 24px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 4rem;
+}
+.drop p {
+  margin: 4px 0px;
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.counteries-part {
+  padding: 20px 0px;
+}
+.countries {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.country {
+  min-height: 336px;
+  background: #fff;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+.country-img img {
+  width: 100%;
+}
+.country-info {
+  padding: 15px 24px 45px;
+}
+.country-info h5 {
+  padding-top: 17px;
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 26px;
+}
+.country-info span {
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 114.286% */
+}
+.country-info p {
+  padding-top: 5px;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+}

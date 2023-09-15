@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries project API</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__items">
+          <h1>Where in the world?</h1>
+          <button class="toggle"><i class="fa fa-moon"></i>Dark Mode</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="search-part">
+        <div class="container">
+          <div class="search__items">
+            <div class="form-control">
+              <input type="text" placeholder="Search for a country…" />
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="dropdownType">
+              <div class="dropdown">
+                <p>Filter by Region</p>
+                <button><i class="fas fa-chevron-down"></i></button>
+              </div>
+              <div class="drop">
+                <p>Africa</p>
+                <p>America</p>
+                <p>Asia</p>
+                <p>Europe</p>
+                <p>Oceania</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="counteries-part">
+        <div class="container">
+          <div class="countries">
+            <div class="country">
+              <div class="country-img">
+                <img src="https://flagcdn.com/w320/na.png" alt="flag" />
+              </div>
+              <div class="country-info">
+                <h5>Germany</h5>
+                <p><span>Population:</span>81,770,900</p>
+                <p><span>Region:</span>Europe</p>
+                <p><span>Capital:</span>Berlin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
